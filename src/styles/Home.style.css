@@ -1,0 +1,19 @@
+.formElements {
+    @apply flex flex-col w-1/2 mx-auto gap-4 my-10;
+}
+
+.formElements > input {
+    @apply border border-slate-200 p-2 rounded-sm;
+}
+
+.formElements > button {
+    @apply bg-slate-200 p-2 rounded-sm hover:bg-slate-300 active:bg-slate-400 transition-colors font-bold;
+}
+
+.resultsFrame {
+    @apply w-1/2 mx-auto;
+}
+
+.resultsFrame > .errorMessage {
+    @apply text-red-600 font-bold text-center;
+}
